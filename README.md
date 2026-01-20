@@ -1,4 +1,4 @@
-# IBPTheme
+# IBPThemess
 
 [![CI Status](https://img.shields.io/travis/anonymous/IBPTheme.svg?style=flat)](https://travis-ci.org/anonymous/IBPTheme)
 [![Version](https://img.shields.io/cocoapods/v/IBPTheme.svg?style=flat)](https://cocoapods.org/pods/IBPTheme)
