@@ -1,0 +1,43 @@
+{
+  "name": "IBPTheme",
+  "version": "1.0.0",
+  "summary": "A short description of IBPTheme.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jhonsmit39/IBPTheme",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kenvinfly": "kenvinfly@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jhonsmit39/IBPTheme.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "subspecs": [
+    {
+      "name": "Public",
+      "source_files": "IBPTheme/Classes/Public/**/*"
+    },
+    {
+      "name": "Theme",
+      "source_files": "IBPTheme/Classes/Theme/**/*"
+    },
+    {
+      "name": "Manager",
+      "source_files": "IBPTheme/Classes/Manager/**/*"
+    },
+    {
+      "name": "Infrastructure",
+      "source_files": "IBPTheme/Classes/Infrastructure/**/*"
+    },
+    {
+      "name": "UIKitSwiftUIBridge",
+      "source_files": "IBPTheme/Classes/UIKitSwiftUIBridge/**/*"
+    }
+  ]
+}

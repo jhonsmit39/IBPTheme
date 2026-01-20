@@ -1,0 +1,6 @@
+framework module Pods_IBPTheme_Example {
+  umbrella header "Pods-IBPTheme_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

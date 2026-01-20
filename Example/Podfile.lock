@@ -1,0 +1,26 @@
+PODS:
+  - IBPTheme (1.0.0):
+    - IBPTheme/Infrastructure (= 1.0.0)
+    - IBPTheme/Manager (= 1.0.0)
+    - IBPTheme/Public (= 1.0.0)
+    - IBPTheme/Theme (= 1.0.0)
+    - IBPTheme/UIKitSwiftUIBridge (= 1.0.0)
+  - IBPTheme/Infrastructure (1.0.0)
+  - IBPTheme/Manager (1.0.0)
+  - IBPTheme/Public (1.0.0)
+  - IBPTheme/Theme (1.0.0)
+  - IBPTheme/UIKitSwiftUIBridge (1.0.0)
+
+DEPENDENCIES:
+  - IBPTheme (from `../`)
+
+EXTERNAL SOURCES:
+  IBPTheme:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IBPTheme: 5c2d8120b6dbbbf2374ee443b80cc97e7fc64d4b
+
+PODFILE CHECKSUM: c19880e21250a34002493022f92cd01ba6bd0b23
+
+COCOAPODS: 1.16.2

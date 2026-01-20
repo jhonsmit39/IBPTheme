@@ -1,0 +1,6 @@
+framework module IBPTheme {
+  umbrella header "IBPTheme-umbrella.h"
+
+  export *
+  module * { export * }
+}
