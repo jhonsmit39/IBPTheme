@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IBPTheme'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of IBPTheme.'
 
 # This description is used to generate tags and improve search results.
@@ -32,23 +32,34 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Public' do |ss|
       ss.source_files = 'IBPTheme/Classes/Public/**/*'
+      ss.dependency 'Manager'
+      ss.dependency 'Infrastructure'
   end
   
   s.subspec 'Theme' do |ss|
      ss.source_files = 'IBPTheme/Classes/Theme/**/*'
+     ss.dependency 'Public'
   end
   
   s.subspec 'Manager' do |ss|
       ss.source_files = 'IBPTheme/Classes/Manager/**/*'
+      ss.dependency 'Public'
+      ss.dependency 'Infrastructure'
+      ss.dependency 'Theme'
   end
   
   s.subspec 'Infrastructure' do |ss|
       ss.source_files = 'IBPTheme/Classes/Infrastructure/**/*'
+      ss.dependency 'Theme'
   end
   
   s.subspec 'UIKitSwiftUIBridge' do |ss|
       ss.source_files = 'IBPTheme/Classes/UIKitSwiftUIBridge/**/*'
+      ss.dependency 'Manager'
+      ss.dependency 'Public'
   end
+  
+  s.default_subspecs = 'Public', 'Theme', 'Manager', 'Infrastructure', 'UIKitSwiftUIBridge'
   
   # s.resource_bundles = {
   #   'IBPTheme' => ['IBPTheme/Assets/*.png']
