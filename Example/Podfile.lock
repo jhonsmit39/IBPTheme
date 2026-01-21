@@ -1,15 +1,5 @@
 PODS:
-  - IBPTheme (1.0.2):
-    - IBPTheme/Infrastructure (= 1.0.2)
-    - IBPTheme/Manager (= 1.0.2)
-    - IBPTheme/Public (= 1.0.2)
-    - IBPTheme/Theme (= 1.0.2)
-    - IBPTheme/UIKitSwiftUIBridge (= 1.0.2)
-  - IBPTheme/Infrastructure (1.0.2)
-  - IBPTheme/Manager (1.0.2)
-  - IBPTheme/Public (1.0.2)
-  - IBPTheme/Theme (1.0.2)
-  - IBPTheme/UIKitSwiftUIBridge (1.0.2)
+  - IBPTheme (1.0.4)
 
 DEPENDENCIES:
   - IBPTheme (from `../`)
@@ -19,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IBPTheme: 5a98d5d40e4403c761d79fbd6f84fb07a29f5414
+  IBPTheme: 6f7107798ab1b1b528347e546ab85e468c4473ac
 
 PODFILE CHECKSUM: c19880e21250a34002493022f92cd01ba6bd0b23
 

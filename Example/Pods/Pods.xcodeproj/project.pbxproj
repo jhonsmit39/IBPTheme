@@ -8,37 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		09A9D199A8C6644C6DB4B1A64D5F77FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		255446E94E1828320ACCABC363C3073B /* ThemeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAA33C78C9A8F6B8F959E35D14E792 /* ThemeMode.swift */; };
 		2A2DEAA354B8FF4907BEE6B0EACBB072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		2D11A235D02A8F8C36A3B8CF069D2282 /* ThemeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7582CE9947602D7AD03E1DADD2CAB6 /* ThemeCore.swift */; };
 		342FD56D646F566B2085D46D50F447BE /* Pods-IBPTheme_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A5C706E52F754EB637A35CEEC0BFDE /* Pods-IBPTheme_Tests-dummy.m */; };
-		349512D70DAAEB069E94D08978DE80F9 /* DS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D7FA98F69E840269E440EE181DA51 /* DS.swift */; };
-		38932B1DC09A5390692639D65700E3A1 /* ThemeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F7DE3936168C90EAA794FD784E4DC7 /* ThemeFactory.swift */; };
-		3CE5A2D8440EB6514184430BFEB17F2B /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F432A40C97D4658A96E8ADB33A54F /* AppTheme.swift */; };
 		402D5ED1EF9DAC6031DE8970C43835F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		43061420CE79314B28E019D9AC96D6BB /* Pods-IBPTheme_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE4C69D292312B0373EDFC1127F37 /* Pods-IBPTheme_Example-dummy.m */; };
-		625654415235ED16AFFB46F10020E0A0 /* ThemeStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90A1D87FE9F6401AB12C0E6B7C5E90 /* ThemeStorage.swift */; };
-		66D0F5994AEB7CB104620C14172B49F7 /* IBPTheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1763C37276AF21EC5D05A1903B7F454 /* IBPTheme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6854138EB6412E1B543C6D8664076F17 /* IBPTheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A74D5CBC4759B0AF4EA00FD702F29F93 /* IBPTheme-dummy.m */; };
+		44D03DBE9760814043A1432D5F430200 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC8ED1B84F52472758FB831D554398D /* Tokens.swift */; };
+		45C7989DC6520F5515D24361752552FA /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D828375A2D2820C5A2A6DF63DAE6FBCB /* ThemeManager.swift */; };
+		46F81E021A18F4BB499C2B835C3D2DDF /* IBPTheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C61151DDC7D21A257CF010732A160F91 /* IBPTheme-dummy.m */; };
+		474D36E23A68FD546FE7ACA94398C132 /* ThemeStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D755FE9924AA3A217D0EEFA7D75CA /* ThemeStorage.swift */; };
+		56B2A8AEDD6D9DB9839E74672865576F /* ThemeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A134DB82DFDDA026164DD973EBB712 /* ThemeFactory.swift */; };
+		66D0F5994AEB7CB104620C14172B49F7 /* IBPTheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 814E9D6B69889F03E93C371BE0C05D5D /* IBPTheme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FDA6FCE0376F3A2F16B129CEFC7BEDC /* ThemeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E78685A7F7BCDB437CA07CEE33B96 /* ThemeParser.swift */; };
 		7A2F0D7BDCF6D7BAAC0C1CAD17372826 /* Pods-IBPTheme_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 823F81FC5BAAC11CA1301FAD8C4A8710 /* Pods-IBPTheme_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82787687FF5088BE5973E31613E378E9 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7761C182711C86F3D6936A4841B238 /* ThemeManager.swift */; };
-		88F88662BCB1C94BB675B191BDFC14A6 /* DefaultDarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB380E6CD222E9E005DE1D2D2880EC /* DefaultDarkTheme.swift */; };
-		8FC4DD5C5847A25C32969DA8FBF9C93D /* ThemeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8E3DF6D24CF185D21B57CFCF061CD /* ThemeParser.swift */; };
-		9D79891E44E2FA640C26923C2D183480 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECAA09152F12BDD8BBE917201C397 /* ColorExtension.swift */; };
-		D7B28E6D7CFFF8751B9411FFFEF39D3E /* DefaultLightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDFDA89764C62CF2E8F0A19191C67A /* DefaultLightTheme.swift */; };
-		E549CB005612651E80A896CC0329268A /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E904955B8262CB524EFF263D5C055 /* Tokens.swift */; };
-		EEE50CD9ED68BCB82869757CBCE01D57 /* ThemeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC232D8CF378388AB4002FBC0042082 /* ThemeCore.swift */; };
+		9A7A740E72AAE0E9F046DD9AFC1C1A0D /* DefaultDarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E8A86E74050C961007D302366B4A0 /* DefaultDarkTheme.swift */; };
+		BCDEADDA84F92FAD447ECC471CF424A4 /* DS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC50E4EF1A20ACFBAEF8DDA22ACF2E /* DS.swift */; };
+		D4D9739601EE222B951E6E24C2EFD2C0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC181A9C548E28A41AEC205F49899E /* ColorExtension.swift */; };
+		F25D0267A84BFCAD5A2D8655A0B86BF5 /* DefaultLightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B647DE789C9FA3475D570C16FFE5732 /* DefaultLightTheme.swift */; };
+		F5093CC65A4C3DD16EA77CBA4F654CCE /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF4B9246B288ABD80850B0CAE1C8697 /* AppTheme.swift */; };
 		F545DED08620FEE4D380817BF8102D80 /* Pods-IBPTheme_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECA444F1E7F5437348C59A03167788E /* Pods-IBPTheme_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F81F3E759D4EAE5AF06CBF48F07A8D09 /* ThemeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FCB628F2EBBB262A01B04778D8E0A8 /* ThemeMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C514EC3DCE1B764905855A39750A3039 /* PBXContainerItemProxy */ = {
+		5DCBCFAF13D77652D9B9670E29C90995 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8B3D405DD4103428B95A3B0B5C9D501E;
 			remoteInfo = "Pods-IBPTheme_Example";
 		};
-		F651AB529DA7C1BE3982A86647B5205D /* PBXContainerItemProxy */ = {
+		AF7BE2C9BF5000F5E1F053439CDB853F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -48,50 +48,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05A8D35EA8DFEAA9A264B434EDE93C88 /* IBPTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IBPTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		08321DFA636076F033B3428E1823EA2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		08A5C706E52F754EB637A35CEEC0BFDE /* Pods-IBPTheme_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IBPTheme_Tests-dummy.m"; sourceTree = "<group>"; };
 		0D494FFC97607227EC2586DAE88C86AF /* Pods-IBPTheme_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IBPTheme_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D7339508A61667F5D22AFBC2F371477 /* IBPTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IBPTheme-Info.plist"; sourceTree = "<group>"; };
 		0ECA444F1E7F5437348C59A03167788E /* Pods-IBPTheme_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IBPTheme_Example-umbrella.h"; sourceTree = "<group>"; };
-		18EAA33C78C9A8F6B8F959E35D14E792 /* ThemeMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeMode.swift; path = IBPTheme/Classes/Public/ThemeMode.swift; sourceTree = "<group>"; };
+		11FCB628F2EBBB262A01B04778D8E0A8 /* ThemeMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeMode.swift; path = IBPTheme/Classes/ThemeMode.swift; sourceTree = "<group>"; };
+		18A134DB82DFDDA026164DD973EBB712 /* ThemeFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeFactory.swift; path = IBPTheme/Classes/ThemeFactory.swift; sourceTree = "<group>"; };
 		1B33AC3137FE294F7B1A500B430F9B96 /* Pods-IBPTheme_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IBPTheme_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1E8D7FA98F69E840269E440EE181DA51 /* DS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DS.swift; path = IBPTheme/Classes/UIKitSwiftUIBridge/DS.swift; sourceTree = "<group>"; };
-		2069BC8645CAC5040DF7D10A01BB224B /* IBPTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IBPTheme.modulemap; sourceTree = "<group>"; };
-		29F7DE3936168C90EAA794FD784E4DC7 /* ThemeFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeFactory.swift; path = IBPTheme/Classes/Infrastructure/ThemeFactory.swift; sourceTree = "<group>"; };
+		1EC8ED1B84F52472758FB831D554398D /* Tokens.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tokens.swift; path = IBPTheme/Classes/Tokens.swift; sourceTree = "<group>"; };
+		1EEDE5FD6FF46F534EB66E3D5B59BF5A /* IBPTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IBPTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		206E78685A7F7BCDB437CA07CEE33B96 /* ThemeParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeParser.swift; path = IBPTheme/Classes/ThemeParser.swift; sourceTree = "<group>"; };
+		270B13D54212C7A6E0643CCD04611B49 /* IBPTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IBPTheme.modulemap; sourceTree = "<group>"; };
 		2AC6EB4C0FF70CB887CC482E217494E8 /* Pods-IBPTheme_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IBPTheme_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2FD8E3DF6D24CF185D21B57CFCF061CD /* ThemeParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeParser.swift; path = IBPTheme/Classes/Infrastructure/ThemeParser.swift; sourceTree = "<group>"; };
-		360CB430A196612D8422E43B9C0EB082 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		324E8A86E74050C961007D302366B4A0 /* DefaultDarkTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultDarkTheme.swift; path = IBPTheme/Classes/DefaultDarkTheme.swift; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3B34E41368DAF151869F07D4CF8E8605 /* IBPTheme */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IBPTheme; path = IBPTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		414E904955B8262CB524EFF263D5C055 /* Tokens.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tokens.swift; path = IBPTheme/Classes/Public/Tokens.swift; sourceTree = "<group>"; };
+		3FAC50E4EF1A20ACFBAEF8DDA22ACF2E /* DS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DS.swift; path = IBPTheme/Classes/DS.swift; sourceTree = "<group>"; };
+		4D7582CE9947602D7AD03E1DADD2CAB6 /* ThemeCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeCore.swift; path = IBPTheme/Classes/ThemeCore.swift; sourceTree = "<group>"; };
 		5408FF363C5DDDF99E7722466387C510 /* Pods-IBPTheme_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IBPTheme_Example"; path = Pods_IBPTheme_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57649B7679734B79F81680ED1A97F8F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5D5FE4C69D292312B0373EDFC1127F37 /* Pods-IBPTheme_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IBPTheme_Example-dummy.m"; sourceTree = "<group>"; };
-		5DDDFDA89764C62CF2E8F0A19191C67A /* DefaultLightTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultLightTheme.swift; path = IBPTheme/Classes/Theme/DefaultLightTheme.swift; sourceTree = "<group>"; };
-		6B7761C182711C86F3D6936A4841B238 /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeManager.swift; path = IBPTheme/Classes/Manager/ThemeManager.swift; sourceTree = "<group>"; };
+		5F5D755FE9924AA3A217D0EEFA7D75CA /* ThemeStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeStorage.swift; path = IBPTheme/Classes/ThemeStorage.swift; sourceTree = "<group>"; };
+		6B647DE789C9FA3475D570C16FFE5732 /* DefaultLightTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultLightTheme.swift; path = IBPTheme/Classes/DefaultLightTheme.swift; sourceTree = "<group>"; };
+		6FD4908ABC309CC65ED31E191C864D04 /* IBPTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBPTheme.release.xcconfig; sourceTree = "<group>"; };
 		74DE2606BB814D5D1EA9024BD0E6C82D /* Pods-IBPTheme_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IBPTheme_Example.modulemap"; sourceTree = "<group>"; };
-		76BB380E6CD222E9E005DE1D2D2880EC /* DefaultDarkTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultDarkTheme.swift; path = IBPTheme/Classes/Theme/DefaultDarkTheme.swift; sourceTree = "<group>"; };
+		7C84AA860018A429E61B4F13336F414B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		814E9D6B69889F03E93C371BE0C05D5D /* IBPTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBPTheme-umbrella.h"; sourceTree = "<group>"; };
 		823F81FC5BAAC11CA1301FAD8C4A8710 /* Pods-IBPTheme_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IBPTheme_Tests-umbrella.h"; sourceTree = "<group>"; };
 		882DB214210674B3950855A98D2F0FBB /* Pods-IBPTheme_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IBPTheme_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CA6F498DDAE9DEB70C0137189982A76 /* IBPTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBPTheme.release.xcconfig; sourceTree = "<group>"; };
 		91A466DFB0EE1BA9CE71FBCED909EBE3 /* Pods-IBPTheme_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IBPTheme_Example-frameworks.sh"; sourceTree = "<group>"; };
-		934F432A40C97D4658A96E8ADB33A54F /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppTheme.swift; path = IBPTheme/Classes/Theme/AppTheme.swift; sourceTree = "<group>"; };
 		9765F1EF25A9F8495873555C319E0CF3 /* Pods-IBPTheme_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IBPTheme_Tests.modulemap"; sourceTree = "<group>"; };
-		9BD93E25310E31179A6587B82AC0DCC5 /* IBPTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IBPTheme-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A74D5CBC4759B0AF4EA00FD702F29F93 /* IBPTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBPTheme-dummy.m"; sourceTree = "<group>"; };
+		9DF4B9246B288ABD80850B0CAE1C8697 /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppTheme.swift; path = IBPTheme/Classes/AppTheme.swift; sourceTree = "<group>"; };
+		A3BC41293C29468607F25A4849556733 /* IBPTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBPTheme.debug.xcconfig; sourceTree = "<group>"; };
 		AC0D116C326C1004AA8A9AAF6F1CFD64 /* Pods-IBPTheme_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IBPTheme_Example-Info.plist"; sourceTree = "<group>"; };
 		BE4C15178DC597540F3CA83ACE089325 /* Pods-IBPTheme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IBPTheme_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C61151DDC7D21A257CF010732A160F91 /* IBPTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBPTheme-dummy.m"; sourceTree = "<group>"; };
 		D06D42A3BB5143778CE376142A704237 /* Pods-IBPTheme_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IBPTheme_Tests-Info.plist"; sourceTree = "<group>"; };
 		D34FF27CF44EA68D2C4F903935E982F0 /* Pods-IBPTheme_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IBPTheme_Tests"; path = Pods_IBPTheme_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC232D8CF378388AB4002FBC0042082 /* ThemeCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeCore.swift; path = IBPTheme/Classes/Public/ThemeCore.swift; sourceTree = "<group>"; };
-		E006ABF3878B44F677B385539024FC05 /* IBPTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBPTheme.debug.xcconfig; sourceTree = "<group>"; };
-		E5E086A747F9918A950DA51F7D2D8DA6 /* IBPTheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBPTheme-prefix.pch"; sourceTree = "<group>"; };
-		F1763C37276AF21EC5D05A1903B7F454 /* IBPTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBPTheme-umbrella.h"; sourceTree = "<group>"; };
+		D828375A2D2820C5A2A6DF63DAE6FBCB /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeManager.swift; path = IBPTheme/Classes/ThemeManager.swift; sourceTree = "<group>"; };
+		E1BC181A9C548E28A41AEC205F49899E /* ColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = IBPTheme/Classes/ColorExtension.swift; sourceTree = "<group>"; };
 		F3ED19BB112B944CB03D88BDF62BE30A /* Pods-IBPTheme_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IBPTheme_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8985C8F7AAB0FCDB0107C22E93B3A6F /* IBPTheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBPTheme-prefix.pch"; sourceTree = "<group>"; };
 		FBE0516BE976F21EEFC6E85EBA369774 /* Pods-IBPTheme_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IBPTheme_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD90A1D87FE9F6401AB12C0E6B7C5E90 /* ThemeStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeStorage.swift; path = IBPTheme/Classes/Infrastructure/ThemeStorage.swift; sourceTree = "<group>"; };
 		FE0BD8DA10DFEA900CB7C67A2EEE4174 /* Pods-IBPTheme_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IBPTheme_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FFDECAA09152F12BDD8BBE917201C397 /* ColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = IBPTheme/Classes/Theme/ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,23 +138,14 @@
 			path = "Target Support Files/Pods-IBPTheme_Tests";
 			sourceTree = "<group>";
 		};
-		0E3F581A989DF919AFF3F966620A3C6F /* UIKitSwiftUIBridge */ = {
+		26062DE8AB28A68F4A93B35E2EFBA4A6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1E8D7FA98F69E840269E440EE181DA51 /* DS.swift */,
+				1EEDE5FD6FF46F534EB66E3D5B59BF5A /* IBPTheme.podspec */,
+				57649B7679734B79F81680ED1A97F8F8 /* LICENSE */,
+				7C84AA860018A429E61B4F13336F414B /* README.md */,
 			);
-			name = UIKitSwiftUIBridge;
-			sourceTree = "<group>";
-		};
-		30668434D49812CC3AE66FDF683BE3AB /* Theme */ = {
-			isa = PBXGroup;
-			children = (
-				934F432A40C97D4658A96E8ADB33A54F /* AppTheme.swift */,
-				FFDECAA09152F12BDD8BBE917201C397 /* ColorExtension.swift */,
-				76BB380E6CD222E9E005DE1D2D2880EC /* DefaultDarkTheme.swift */,
-				5DDDFDA89764C62CF2E8F0A19191C67A /* DefaultLightTheme.swift */,
-			);
-			name = Theme;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4BFF9EE5A9F93AFC000910EDEA460435 /* Products */ = {
@@ -167,72 +158,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5DD29FE5CCF0E07BDE4022BEA1EF1742 /* Public */ = {
+		5CE7A62D9AD2F5CC39C5C0C1C357B147 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DCC232D8CF378388AB4002FBC0042082 /* ThemeCore.swift */,
-				18EAA33C78C9A8F6B8F959E35D14E792 /* ThemeMode.swift */,
-				414E904955B8262CB524EFF263D5C055 /* Tokens.swift */,
+				CE387EADA0F3D3A6F6BEB16A8EB60476 /* IBPTheme */,
 			);
-			name = Public;
-			sourceTree = "<group>";
-		};
-		6BD56FD74D51133BD11506DE57AF89DC /* Infrastructure */ = {
-			isa = PBXGroup;
-			children = (
-				29F7DE3936168C90EAA794FD784E4DC7 /* ThemeFactory.swift */,
-				2FD8E3DF6D24CF185D21B57CFCF061CD /* ThemeParser.swift */,
-				FD90A1D87FE9F6401AB12C0E6B7C5E90 /* ThemeStorage.swift */,
-			);
-			name = Infrastructure;
-			sourceTree = "<group>";
-		};
-		8CBD34A16AB0858639D4DA99440EE272 /* IBPTheme */ = {
-			isa = PBXGroup;
-			children = (
-				6BD56FD74D51133BD11506DE57AF89DC /* Infrastructure */,
-				A27C3B6BC8A559541A9B0D3119990709 /* Manager */,
-				99561CA8ABADCC6F954881BCC40EF7FB /* Pod */,
-				5DD29FE5CCF0E07BDE4022BEA1EF1742 /* Public */,
-				93A57B3DA73BFA8C961617157F882853 /* Support Files */,
-				30668434D49812CC3AE66FDF683BE3AB /* Theme */,
-				0E3F581A989DF919AFF3F966620A3C6F /* UIKitSwiftUIBridge */,
-			);
-			name = IBPTheme;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		93A57B3DA73BFA8C961617157F882853 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2069BC8645CAC5040DF7D10A01BB224B /* IBPTheme.modulemap */,
-				A74D5CBC4759B0AF4EA00FD702F29F93 /* IBPTheme-dummy.m */,
-				9BD93E25310E31179A6587B82AC0DCC5 /* IBPTheme-Info.plist */,
-				E5E086A747F9918A950DA51F7D2D8DA6 /* IBPTheme-prefix.pch */,
-				F1763C37276AF21EC5D05A1903B7F454 /* IBPTheme-umbrella.h */,
-				E006ABF3878B44F677B385539024FC05 /* IBPTheme.debug.xcconfig */,
-				8CA6F498DDAE9DEB70C0137189982A76 /* IBPTheme.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/IBPTheme";
-			sourceTree = "<group>";
-		};
-		99561CA8ABADCC6F954881BCC40EF7FB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				05A8D35EA8DFEAA9A264B434EDE93C88 /* IBPTheme.podspec */,
-				360CB430A196612D8422E43B9C0EB082 /* LICENSE */,
-				08321DFA636076F033B3428E1823EA2F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A27C3B6BC8A559541A9B0D3119990709 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				6B7761C182711C86F3D6936A4841B238 /* ThemeManager.swift */,
-			);
-			name = Manager;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A2D9BEF8E9A98FA83F09A6D7A506140C /* Pods-IBPTheme_Example */ = {
@@ -252,6 +183,21 @@
 			path = "Target Support Files/Pods-IBPTheme_Example";
 			sourceTree = "<group>";
 		};
+		AD88D729627CCBFBECC807D85ECEA21F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				270B13D54212C7A6E0643CCD04611B49 /* IBPTheme.modulemap */,
+				C61151DDC7D21A257CF010732A160F91 /* IBPTheme-dummy.m */,
+				0D7339508A61667F5D22AFBC2F371477 /* IBPTheme-Info.plist */,
+				F8985C8F7AAB0FCDB0107C22E93B3A6F /* IBPTheme-prefix.pch */,
+				814E9D6B69889F03E93C371BE0C05D5D /* IBPTheme-umbrella.h */,
+				A3BC41293C29468607F25A4849556733 /* IBPTheme.debug.xcconfig */,
+				6FD4908ABC309CC65ED31E191C864D04 /* IBPTheme.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IBPTheme";
+			sourceTree = "<group>";
+		};
 		BA9FAA10E6EFD64385FB00DF901DC6F3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,11 +207,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CE387EADA0F3D3A6F6BEB16A8EB60476 /* IBPTheme */ = {
+			isa = PBXGroup;
+			children = (
+				9DF4B9246B288ABD80850B0CAE1C8697 /* AppTheme.swift */,
+				E1BC181A9C548E28A41AEC205F49899E /* ColorExtension.swift */,
+				324E8A86E74050C961007D302366B4A0 /* DefaultDarkTheme.swift */,
+				6B647DE789C9FA3475D570C16FFE5732 /* DefaultLightTheme.swift */,
+				3FAC50E4EF1A20ACFBAEF8DDA22ACF2E /* DS.swift */,
+				4D7582CE9947602D7AD03E1DADD2CAB6 /* ThemeCore.swift */,
+				18A134DB82DFDDA026164DD973EBB712 /* ThemeFactory.swift */,
+				D828375A2D2820C5A2A6DF63DAE6FBCB /* ThemeManager.swift */,
+				11FCB628F2EBBB262A01B04778D8E0A8 /* ThemeMode.swift */,
+				206E78685A7F7BCDB437CA07CEE33B96 /* ThemeParser.swift */,
+				5F5D755FE9924AA3A217D0EEFA7D75CA /* ThemeStorage.swift */,
+				1EC8ED1B84F52472758FB831D554398D /* Tokens.swift */,
+				26062DE8AB28A68F4A93B35E2EFBA4A6 /* Pod */,
+				AD88D729627CCBFBECC807D85ECEA21F /* Support Files */,
+			);
+			name = IBPTheme;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FA5E68932761091EB13A315C1CB3F303 /* Development Pods */,
+				5CE7A62D9AD2F5CC39C5C0C1C357B147 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4BFF9EE5A9F93AFC000910EDEA460435 /* Products */,
 				BA9FAA10E6EFD64385FB00DF901DC6F3 /* Targets Support Files */,
@@ -286,14 +254,6 @@
 				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		FA5E68932761091EB13A315C1CB3F303 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8CBD34A16AB0858639D4DA99440EE272 /* IBPTheme */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,7 +298,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FE796AF5D484E87E93B2BD086B1AC320 /* PBXTargetDependency */,
+				703F161D6B94ECFBC1890BDB3F4FC4FF /* PBXTargetDependency */,
 			);
 			name = "Pods-IBPTheme_Example";
 			productName = Pods_IBPTheme_Example;
@@ -350,7 +310,7 @@
 			buildConfigurationList = DB7DE12CE4F575690D555F6BD0AD1D04 /* Build configuration list for PBXNativeTarget "IBPTheme" */;
 			buildPhases = (
 				B0A6227157A5C896CA3468ADEAED4157 /* Headers */,
-				FF330C98BD8B89749A3F08954131AE23 /* Sources */,
+				70725713E79875F77FC260C619E3F8B6 /* Sources */,
 				021B790BFB9F15926D0418FF9764D279 /* Frameworks */,
 				77D385A0E8FAEB85ED38985166FFE736 /* Resources */,
 			);
@@ -375,7 +335,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6B0063F55A4FD310862234D624462865 /* PBXTargetDependency */,
+				2AE10514F34B91B25F957774FB591820 /* PBXTargetDependency */,
 			);
 			name = "Pods-IBPTheme_Tests";
 			productName = Pods_IBPTheme_Tests;
@@ -438,6 +398,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		70725713E79875F77FC260C619E3F8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5093CC65A4C3DD16EA77CBA4F654CCE /* AppTheme.swift in Sources */,
+				D4D9739601EE222B951E6E24C2EFD2C0 /* ColorExtension.swift in Sources */,
+				9A7A740E72AAE0E9F046DD9AFC1C1A0D /* DefaultDarkTheme.swift in Sources */,
+				F25D0267A84BFCAD5A2D8655A0B86BF5 /* DefaultLightTheme.swift in Sources */,
+				BCDEADDA84F92FAD447ECC471CF424A4 /* DS.swift in Sources */,
+				46F81E021A18F4BB499C2B835C3D2DDF /* IBPTheme-dummy.m in Sources */,
+				2D11A235D02A8F8C36A3B8CF069D2282 /* ThemeCore.swift in Sources */,
+				56B2A8AEDD6D9DB9839E74672865576F /* ThemeFactory.swift in Sources */,
+				45C7989DC6520F5515D24361752552FA /* ThemeManager.swift in Sources */,
+				F81F3E759D4EAE5AF06CBF48F07A8D09 /* ThemeMode.swift in Sources */,
+				6FDA6FCE0376F3A2F16B129CEFC7BEDC /* ThemeParser.swift in Sources */,
+				474D36E23A68FD546FE7ACA94398C132 /* ThemeStorage.swift in Sources */,
+				44D03DBE9760814043A1432D5F430200 /* Tokens.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A37E7000420A6D6497E82477E858AA6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -454,40 +434,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF330C98BD8B89749A3F08954131AE23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CE5A2D8440EB6514184430BFEB17F2B /* AppTheme.swift in Sources */,
-				9D79891E44E2FA640C26923C2D183480 /* ColorExtension.swift in Sources */,
-				88F88662BCB1C94BB675B191BDFC14A6 /* DefaultDarkTheme.swift in Sources */,
-				D7B28E6D7CFFF8751B9411FFFEF39D3E /* DefaultLightTheme.swift in Sources */,
-				349512D70DAAEB069E94D08978DE80F9 /* DS.swift in Sources */,
-				6854138EB6412E1B543C6D8664076F17 /* IBPTheme-dummy.m in Sources */,
-				EEE50CD9ED68BCB82869757CBCE01D57 /* ThemeCore.swift in Sources */,
-				38932B1DC09A5390692639D65700E3A1 /* ThemeFactory.swift in Sources */,
-				82787687FF5088BE5973E31613E378E9 /* ThemeManager.swift in Sources */,
-				255446E94E1828320ACCABC363C3073B /* ThemeMode.swift in Sources */,
-				8FC4DD5C5847A25C32969DA8FBF9C93D /* ThemeParser.swift in Sources */,
-				625654415235ED16AFFB46F10020E0A0 /* ThemeStorage.swift in Sources */,
-				E549CB005612651E80A896CC0329268A /* Tokens.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6B0063F55A4FD310862234D624462865 /* PBXTargetDependency */ = {
+		2AE10514F34B91B25F957774FB591820 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-IBPTheme_Example";
 			target = 8B3D405DD4103428B95A3B0B5C9D501E /* Pods-IBPTheme_Example */;
-			targetProxy = C514EC3DCE1B764905855A39750A3039 /* PBXContainerItemProxy */;
+			targetProxy = 5DCBCFAF13D77652D9B9670E29C90995 /* PBXContainerItemProxy */;
 		};
-		FE796AF5D484E87E93B2BD086B1AC320 /* PBXTargetDependency */ = {
+		703F161D6B94ECFBC1890BDB3F4FC4FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IBPTheme;
 			target = A81AF9B17678BA9551CFF8404EF3ADBA /* IBPTheme */;
-			targetProxy = F651AB529DA7C1BE3982A86647B5205D /* PBXContainerItemProxy */;
+			targetProxy = AF7BE2C9BF5000F5E1F053439CDB853F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -531,7 +491,7 @@
 		};
 		24F7EFD3646A0AC09E49C29E459FC3C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CA6F498DDAE9DEB70C0137189982A76 /* IBPTheme.release.xcconfig */;
+			baseConfigurationReference = 6FD4908ABC309CC65ED31E191C864D04 /* IBPTheme.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -568,7 +528,7 @@
 		};
 		50425E4A88CD858E486604CB03FFC854 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E006ABF3878B44F677B385539024FC05 /* IBPTheme.debug.xcconfig */;
+			baseConfigurationReference = A3BC41293C29468607F25A4849556733 /* IBPTheme.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
